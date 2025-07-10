@@ -372,10 +372,6 @@ def delete_ratings_given_by_user(user_id):
     return jsonify({'message': f'all ratings given by user with id {user_id} have been deleted'}), 200
 
 
-
-
-
-
 #Get all categories
 @api.route('/categories', methods=['GET'])
 def get_categories():
